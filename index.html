@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+  <link rel="stylesheet" href="/style/index.css" />
+</head>
+
+<body>
+  <!-- nav-bar -->
+  <nav class="navbar navbar-expand-lg bg-white py-3 sticky-top">
+    <div class="container-fluid d-flex align-items-center px-3 px-lg-5">
+
+      <div class="d-flex flex-1 d-lg-none">
+        <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      <div class="navbar-brand-container d-flex justify-content-center justify-content-lg-start flex-1">
+        <a class="navbar-brand d-flex align-items-center me-0" href="/index.html">
+          <img src="/images/moon-icon.png" alt="Logo" class="logo-img">
+          <img src="/images/moon-icon-text.png" alt="Moon" class="logo-text ms-2 d-none d-sm-block">
+        </a>
+      </div>
+
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav gap-4">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
+          <li class="nav-item"><a class="nav-link" href="/about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-icons-container d-flex justify-content-end gap-3 flex-1">
+        <a href="#" class="d-none d-lg-block"><img src="/images/Search-icon.png" alt="Search"></a>
+        <a href="#" class="d-none d-lg-block"><img src="/images/Avatar-icon.png" alt="Avatar"></a>
+        <a href="#" class="d-none d-lg-block"><img src="/images/Heart-icon.png" alt="Heart"></a>
+        <a href="#"><img src="/images/Shopping-cart-icpn.png" alt="Cart"></a>
+      </div>
+
+      <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasNavbar">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title">Menu</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav gap-3">
+            <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
+            <li class="nav-item"><a class="nav-link" href="/about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- end of nav-bar -->
+
+
+  <!-- start of hero section -->
+  <section class="hero-section">
+    <div class="hero-slider">
+      <img src="/images/slider-hero.jpg" class="img-main" alt="Hero Slider">
+    </div>
+    <div class="hero-overlay">
+      <div class="container h-100 d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-overlay-logo" src="/images/moon-Icon-white.svg" alt="moon logo">
+        <img src="/images/hero-section-text.png" alt="hero section text" class="hero-overlay-text my-3">
+        <button class="btn btn-light px-5 py-2 mt-4 text-uppercase rounded-0">Shop Now</button>
+      </div>
+    </div>
+  </section>
+  <!-- end of hero section -->
+
+  <!-- strart of secound section -->
+  <section class="secound-section">
+    <div class="secound-section-cards d-flex flex-wrap justify-content-between">
+
+      <div class="card-item">
+        <img src="/images/tableware-Image.png" alt="tableware image">
+        <h3>tableware</h3>
+      </div>
+
+      <div class="card-item">
+        <img src="/images/home-decor.png" alt="home decor image">
+        <h3>Home Decor</h3>
+      </div>
+
+      <div class="card-item">
+        <img src="/images/holiday.png" alt="holiday image">
+        <h3>Holiday</h3>
+      </div>
+
+      <div class="card-item">
+        <img src="/images/collection.jpg" alt="collection image">
+        <h3>Collection</h3>
+      </div>
+    </div>
+  </section>
+  <!-- end of secound section -->
+
+  <!-- start of promo section -->
+  <section class="promo-banner">
+    <div class="promo-container d-flex flex-column flex-lg-row">
+
+      <div class="promo-text-side">
+        <h2 class="promo-title">UP TO 40% OFF OUR <br> CHRISTMAS COLLECTION</h2>
+        <p class="promo-description">
+          Lorem ipsum dolor sit amet consectetur adipiscing <br>
+          eli mattis sit phasellus mollis sit aliquam sit nullam <br>
+          neque ultrices.
+        </p>
+        <a href="#" class="shop-now-link text-black">SHOP NOW</a>
+      </div>
+      <div class="promo-image-side">
+        <img src="/images/promo-image.png" alt="Christmas Collection">
+      </div>
+
+    </div>
+  </section>
+  <!-- end of promo section -->
+
+  <!-- start of best sellers section -->
+  <section class="best-sellers-section py-5">
+    <div class="container-fluid">
+      <h2 class="section-title text-center mb-5">BEST SELLERS</h2>
+
+      <div class="product-wrapper d-flex flex-wrap justify-content-between">
+
+        <div class="product-item">
+          <div class="img-box"><img src="/images/best-sellers-1.png" alt="product"></div>
+          <div class="info text-start">
+            <h6>SMALL ECRU CERAMIC COMPOTE</h6>
+            <p class="price">$49.00</p>
+            <p class="desc">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit.</p>
+            <button class="btn-add">ADD TO CART</button>
+          </div>
+        </div>
+
+        <div class="product-item">
+          <div class="img-box"><img src="/images/best-sellers-2.png" alt="product"></div>
+          <div class="info text-start">
+            <h6>WARRICK WHITE VASE 14"</h6>
+            <p class="price">$49.00</p>
+            <p class="desc">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit.</p>
+            <button class="btn-add">ADD TO CART</button>
+          </div>
+        </div>
+
+        <div class="product-item">
+          <div class="img-box"><img src="/images/best-sellers-3.png" alt="product"></div>
+          <div class="info text-start">
+            <h6>PORCELAIN DINNER PLATE</h6>
+            <p class="price">$49.00</p>
+            <p class="desc">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit.</p>
+            <button class="btn-add">ADD TO CART</button>
+          </div>
+        </div>
+
+        <div class="product-item">
+          <div class="img-box"><img src="/images/best-sellers-4.png" alt="product"></div>
+          <div class="info text-start">
+            <h6>WARRICK WHITE VASE 20"</h6>
+            <p class="price">$49.00</p>
+            <p class="desc">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit.</p>
+            <button class="btn-add">ADD TO CART</button>
+          </div>
+        </div>
+
+        <div class="product-item">
+          <div class="img-box"><img src="/images/best-sellers-5.png" alt="product"></div>
+          <div class="info text-start">
+            <h6>ROUNDED DUAL HANDLED VASE</h6>
+            <p class="price">$49.00</p>
+            <p class="desc">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit.</p>
+            <button class="btn-add">ADD TO CART</button>
+          </div>
+        </div>
+
+        <div class="product-item">
+          <div class="img-box"><img src="/images/best-sellers-6.png" alt="product"></div>
+          <div class="info text-start">
+            <h6>MARIN WHITE DINNER PLATE</h6>
+            <p class="price">$49.00</p>
+            <p class="desc">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit.</p>
+            <button class="btn-add">ADD TO CART</button>
+          </div>
+        </div>
+
+        <div class="product-item">
+          <div class="img-box"><img src="/images/best-sellers-7.png" alt="product"></div>
+          <div class="info text-start">
+            <h6>TALL CREAM CERAMIC VASE</h6>
+            <p class="price">$49.00</p>
+            <p class="desc">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit.</p>
+            <button class="btn-add">ADD TO CART</button>
+          </div>
+        </div>
+
+        <div class="product-item">
+          <div class="img-box"><img src="/images/best-sellers-8.png" alt="product"></div>
+          <div class="info text-start">
+            <h6>LUANA BOWL</h6>
+            <p class="price">$49.00</p>
+            <p class="desc">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit.</p>
+            <button class="btn-add">ADD TO CART</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- end of best sellers section -->
+
+  <!-- start history section -->
+  <section class="history-section">
+    <div class="history-container">
+      <div class="history-row d-flex">
+        <div class="text-box">
+          <h2 class="title">MADE IN VIET NAM <br> SINCE 1450</h2>
+          <p class="desc">Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam
+            sit nullam neque ultrices.</p>
+          <a href="#" class="learn-more">LEARN MORE</a>
+        </div>
+        <div class="image-box">
+          <img src="/images/history-section-1.png" alt="Vietnam Crafts">
+        </div>
+      </div>
+
+      <div class="history-row d-flex flex-row-reverse">
+        <div class="text-box">
+          <h2 class="title">OUR HISTORY</h2>
+          <p class="desc">Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam
+            sit.</p>
+          <a href="#" class="learn-more">LEARN MORE</a>
+        </div>
+        <div class="image-box">
+          <img src="/images/history-section-2.png" alt="Our History">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end history section -->
+
+
+
+
+
+
+
+
+  <!-- start new arrival section -->
+  <section class="new-arrivals py-5">
+    <div class="container-fluid">
+      <h2 class="section-title text-center mb-5">DISCOVER NEW ARRIVALS</h2>
+
+      <div class="arrivals-wrapper d-flex flex-wrap justify-content-between">
+
+        <div class="arrival-item">
+          <div class="img-holder"><img src="/images/new-arrivals-1.png" alt="plate"></div>
+          <div class="info text-start mt-3">
+            <h6>PORCELAIN DINNER PLATE</h6>
+            <p class="price">$49.00</p>
+            <p class="desc">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit tortor eu.</p>
+            <button class="btn-add">ADD TO CART</button>
+          </div>
+        </div>
+
+        <div class="arrival-item">
+          <div class="img-holder"><img src="/images/new-arrivals-2.png" alt="vase"></div>
+          <div class="info text-start mt-3">
+            <h6>OPHELIA MATTE NATURAL VASE</h6>
+            <p class="price">$49.00</p>
+            <p class="desc">Lorem ipsum dolor sit amet conse bolli tetur.</p>
+            <button class="btn-add">ADD TO CART</button>
+          </div>
+        </div>
+
+        <div class="arrival-item">
+          <div class="img-holder"><img src="/images/new-arrivals-3.png" alt="plate"></div>
+          <div class="info text-start mt-3">
+            <h6>PORCELAIN DINNER PLATE</h6>
+            <p class="price">$49.00</p>
+            <p class="desc">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit tortor eu.</p>
+            <button class="btn-add">ADD TO CART</button>
+          </div>
+        </div>
+
+        <div class="arrival-item">
+          <div class="img-holder"><img src="/images/new-arrivals-4.png" alt="bowl"></div>
+          <div class="info text-start mt-3">
+            <h6>LUANA BOWL</h6>
+            <p class="price">$49.00</p>
+            <p class="desc">Lorem ipsum dolor sit amet conse.</p>
+            <button class="btn-add">ADD TO CART</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- end new arrival section -->
+
+
+  <!-- start our blog section -->
+  <section class="blog-section">
+    <h2 class="section-title text-center mb-5">OUR BLOG</h2>
+    <div class="blog-container d-flex flex-wrap">
+      <div class="blog-text-side">
+        <span class="category text-uppercase">Tableware</span>
+        <h3 class="blog-heading">THE SECRETS TO A <br> KITCHEN ROOM</h3>
+        <p class="blog-desc">Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit
+          aliquam sit nullam neque ultrices.</p>
+        <a href="#" class="read-more">READ MORE</a>
+      </div>
+      <div class="blog-image-side">
+        <img src="/images/our-blogs-image.svg" alt="Kitchen Room Secrets">
+      </div>
+    </div>
+  </section>
+
+  <section class="newsletter-section text-center">
+    <p class="sub-text">Sign up for emails</p>
+    <h2 class="newsletter-title">FOR NEWS, COLLECTIONS & MORE</h2>
+    <form class="newsletter-form">
+      <input type="email" placeholder="Enter your email address" class="email-input">
+      <button type="submit" class="btn-signup">SIGN UP</button>
+    </form>
+  </section>
+
+  <footer class="main-footer">
+    <div class="footer-container d-flex flex-wrap">
+      <div class="footer-col brand-col">
+        <h2 class="footer-logo">MOON.</h2>
+        <p class="brand-desc">Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam mauris sed ma</p>
+        <button class="btn-get-started">GET STARTED &rarr;</button>
+      </div>
+      <div class="footer-col">
+        <h5>ABOUT US</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">Mission</a></li>
+          <li><a href="#">Our team</a></li>
+          <li><a href="#">Awards</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">Privacy policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>SERVICES</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">Web design</a></li>
+          <li><a href="#">Web development</a></li>
+          <li><a href="#">Mobile design</a></li>
+          <li><a href="#">UI/UX design</a></li>
+          <li><a href="#">Branding design</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>PORTFOLIO</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">Corporate websites</a></li>
+          <li><a href="#">E-commerce</a></li>
+          <li><a href="#">Mobile apps</a></li>
+          <li><a href="#">Landing pages</a></li>
+          <li><a href="#">UI/UX projects</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom text-center">
+      <p>Copyright © 2026 Moon | All Rights Reserved | <a href="#">Terms and Conditions</a> | <a href="#">Privacy
+          Policy</a></p>
+    </div>
+  </footer>
+
+  <!-- end our blog section -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
